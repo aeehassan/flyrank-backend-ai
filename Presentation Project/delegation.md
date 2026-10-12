@@ -1,12 +1,13 @@
 # Task: Creating a compelling presentation on the topic Machine Learning Algorithms - Finished in 1hr 7mins
 link: https://claude.ai/share/fa0a7a3c-2fb5-4dda-8f4f-f8bdd1146a8c 
 
-## Goals:
+## Delegation
+### Goals:
 - Minimal presentation
 - Presentable within 7-8 mins
 - Aimed at beginner ML students
 
-## Vision:
+### Vision:
 Organization of algorithms into 3 groups. Each gets a slide with a simple diagram and a use case text. Have a catchy and nice title hook. It should have a families slide which simply introduce them. There should be a recap slide. We should have a nice choice of color combos - using a family badge and same color for same family is a good idea. 
 
 We're using Claude since it's the one I'm practicing with in this course.
