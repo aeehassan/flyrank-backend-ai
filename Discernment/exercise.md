@@ -1,5 +1,6 @@
 ## Expert Discernment: Evaluating AI Responses in Your Domain
-link: https://claude.ai/share/f44f4bb6-75c7-4f27-ad4b-05ac3f3c2272
+Exercise: https://claude.ai/share/f44f4bb6-75c7-4f27-ad4b-05ac3f3c2272
+Evaluation: https://claude.ai/share/c7dfd0c5-ee51-42fc-967b-4958da562eab
 
 ### Questions
 Drawing on your expertise, carefully evaluate each explanation provided by Claude:
@@ -75,8 +76,9 @@ which one clicks most for you? or did i get anything wrong lol 👀
 2. I asked for multiple explanations
 3. Evaluated the quality of my discernment with a claude chat
 4. Provided my feedback and refinement
+5. No reflection discussions because I've spent long enough on this lesson and have grasped the core concept
 
-Attempt
+### Attempt
 Product discernment
 1. Explanation 2 because it correctly covers the main idea behind decorators alongside a relatable example, without requiring prior knowledge to grasp
 2. Yes. In 2, it stopped at "functions are objects". That is incomplete. It should have added that they perform an action. In 3, "add behavior", it didn't state to what exactly. Also, it didn't give context of what the timer function is. It should have introduced it at least instead of assuming the reader knows. 
