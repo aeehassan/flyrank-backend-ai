@@ -1,4 +1,6 @@
 ## Finalized Project Plan - Executed in 4hrs 30mins
+Project execution: https://claude.ai/share/96dfd50d-e9a1-4618-a078-8328bf3f6f3c
+Project delegation: https://claude.ai/share/fa0a7a3c-2fb5-4dda-8f4f-f8bdd1146a8c 
 
 1. Outline the presentation slides; augmentation
 2. Finalize the content scope; automation - I'd only cross-check its output
