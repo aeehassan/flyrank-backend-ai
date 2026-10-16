@@ -1,13 +1,14 @@
-## Finalized Project Plan
+## Finalized Project Plan - Executed in 4hrs 30mins
 
 1. Outline the presentation slides; augmentation
 2. Finalize the content scope; automation - I'd only cross-check its output
 3. Define design color system; augmentation - AI drafts whilst I verify taste and appeal
 4. Design the diagrams; automation
-5. Build the deck, however AI gives me layout ideas
-6. Proofread; automation
+5. Generate outlines for interactive html slides
+6. Build the deck, however AI gives me layout ideas
 7. Review and polish slides
-8. Rehearse and review with AI
+8. Proofread; automation
+9. Rehearse and review with AI (Discarded bcoz this is a test not an actual project)
 
 ### #1
 | # | Slide | Badge | Visual | Time | Key takeaway |
@@ -144,3 +145,62 @@ Install both fonts on your laptop before building the deck.
 - **Slides 2 and 9:** Three tinted blocks or columns, each with its main-color badge on top.
 - **Slides 3-8:** Soft white background. The family color appears only in the badge, the key parts of the diagram, and the "Use it for:" label.
 - **Diagrams:** Warm stone for background elements such as unlabeled dots, and the family color for what the eye should find.
+
+### #4
+Diagrams were all solid
+
+### #5
+
+I changed the intro slides to 20s and the diagram pages to 30s, and added your name to slide 1. Each algorithm still gets 50 seconds, and the total is still 7:10. Everything else is unchanged.
+
+## Updated plan (total: 7 min 10 sec)
+
+| # | Slide | Badge | Visual | Time | Key takeaway |
+|---|---|---|---|---|---|
+| 1 | Machine Learning Algorithms: Which algorithm do I pick? + "Instructor: Abubakar A. Hassan" | none | Bold title text with the instructor line below it, on a blank background | 30s | There are many algorithms, and today you'll learn six of them. |
+| 2 | The 3 families | all three | Three color-coded blocks, each listing its algorithm names | 50s | Algorithms are grouped by how they learn: from labeled examples, from patterns in unlabeled data, or from trial and error. |
+| 3 | Linear Regression | Supervised | Scatter plot with fitted line and prediction slider | 50s | It finds the straight line that best fits the data, so it can predict a number. |
+| 4 | Decision Trees | Supervised | Small branching tree with applicant paths | 50s | It makes a decision by asking a series of yes/no questions. |
+| 5 | k-Nearest Neighbors (intro) | Supervised | Small dots with neighbors circled, one-line explanation, "Use it for:" | 20s | A new point takes the label of the points closest to it. |
+| 6 | k-Nearest Neighbors (full-screen diagram) | Supervised | Dots, new point, and k slider, full screen | 30s | The label comes from a vote of the nearest points, and changing k can change the answer. |
+| 7 | K-Means Clustering (intro) | Unsupervised | Small unlabeled dots, one-line explanation, "Use it for:" | 20s | It groups similar data points together without being told the groups. |
+| 8 | K-Means Clustering (full-screen diagram) | Unsupervised | Four-stage diagram, full screen | 30s | The centers move until the groups appear. |
+| 9 | PCA (intro) | Unsupervised | Small 3D cloud, one-line explanation, "Use it for:" | 20s | It shrinks many features into fewer ones while keeping the most important information. |
+| 10 | PCA (full-screen diagram) | Unsupervised | 3D cloud flattened to 2D with a slider, full screen | 30s | The flat view keeps the main spread of the data using fewer features. |
+| 11 | Q-Learning (intro) | Reinforcement | Small grid world, one-line explanation, "Use it for:" | 20s | An agent learns the best actions by trying things and collecting rewards. |
+| 12 | Q-Learning (full-screen diagram) | Reinforcement | Grid world with agent, goal, and traps, full screen | 30s | After learning, the agent walks the safe path to the goal. |
+| 13 | So, which one do I pick? | all three | Three color-coded columns, one-line use case per algorithm | 50s | The best algorithm depends on your data and your goal. |
+
+**Timing check:** 30 + 50 + (2 × 50) + (4 × (20 + 30)) + 50 = 430 seconds = 7:10.
+
+## Settings carried over
+
+- **Format:** One self-contained HTML file that works offline, with Poppins and Inter embedded.
+- **Layout:** Slides 3 and 4 use the standard layout, with the diagram on the left and the explanation and "Use it for:" on the right. The full-screen diagram pages show only the family badge and the algorithm name.
+- **Colors and badges:** Unchanged, using the approved color system.
+- **Instructor line:** I'll style it in Inter Regular, in Warm stone, under the title. This is a layout detail I'll settle when we build the deck.
+
+Do you approve this plan? If so, tell me which task is next.
+
+### #7
+Reviewed and polished. I added animations and transitions. I allowed claude to be creative with them whilst I refined them some more. I also added dark mode but I let claude wholeheartedly decide the colors here.
+
+### #8
+
+#### What I fixed
+
+| # | Where | Issue | Fix |
+|---|---|---|---|
+| 1 | Slides 2, 7, 8, 13, and the diagram label | "k-Nearest Neighbors" had a lowercase k but "K-Means Clustering" had a capital K, so the names didn't match. | Changed to "k-Means Clustering" everywhere, matching "k-Nearest Neighbors". |
+| 2 | Slide 11 and 12, Q-Learning grid | The traps used a short hyphen ("-10") next to a proper "+10". | Changed to a true minus sign ("−10"). |
+| 3 | Slide 14, hidden description | The accessibility description for the final illustration still said the algorithms were "orbiting", which stopped being true when we removed the rotation. | Now says "arranged around a question mark". |
+| 4 | k-NN diagram caption | The caption said the new point has a "black outline", but in dark mode the outline is light. | Now says "thick outline". |
+
+If you prefer the capital K in "K-Means" (a valid style, just not matching the other name), tell me and I'll switch it back.
+
+#### What I checked and found consistent
+- **Spelling:** American English throughout (labeled, unlabeled, behavior, neighbors).
+- **Wording:** The one-line explanations, the "Use it for:" labels, and the recap lines match our approved content. The recap lines are the intentional shorter versions.
+- **Punctuation:** One-line explanations end with a period. Titles, labels, and recap lines don't. Question marks appear only on slides 1, 13, and 14.
+- **Numbers and names:** Digits are used consistently ("The 3 families", "Pick 3 starting centers", "3 features"). Q-Learning, PCA, and your name and title are written the same everywhere.
+- **Badges:** The badges read "Supervised", "Unsupervised", and "Reinforcement", in sentence case, as you chose.
