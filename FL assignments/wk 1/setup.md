@@ -19,4 +19,4 @@ Deliverable: A 1 to 2 page workflow audit (table format), a screenshot of your c
 
 ## Solution
 ### Tasks
-- It's in a doc
+- It's in a doc setup_deliverable.doc
